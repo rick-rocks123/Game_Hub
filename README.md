@@ -75,7 +75,6 @@ py gamehub --help
 ```
 
 
-
 ### ✅ Python usage
 ## Example 1: direct usage
 
