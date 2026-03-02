@@ -138,7 +138,7 @@ def user_input(board):
 
 # ---------- GUESS THE NUMBER ----------
 def guess_number():
-    number = random.randint(1, 10)
+    number = random.randint(1, 100)
 
     player_name = safe_input("Hello, What's your name? ")
     if player_name is None:
