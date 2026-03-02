@@ -80,20 +80,20 @@ py gamehub --help
 ## Example 1: direct usage
 
 ```python
-from game_hub import play_tic_tac_toe, play_rps, guess_number
+from gamehub import play_tic_tac_toe, play_rps, guess_number
 
 games = {
-"tic_tac_toe": play_tic_tac_toe,
-"rps": play_rps,
-"number": guess_number
+    "tic_tac_toe": play_tic_tac_toe,
+    "rps": play_rps,
+    "number": guess_number
 }
 
 game_name = input("Which game? tic_tac_toe, rps, or number: ").strip()
-if game_name in games:
-gamesgame_name
 
+if game_name in games:
+    games[game_name]()  # ✅ call the function
 else:
-print("Invalid game name")
+    print("Invalid game name")
 ```
 ## Example 2: usage with CLI-style arguments
 
