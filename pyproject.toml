@@ -25,3 +25,4 @@ gamehub = "gamehub.main:main"
 
 [project.urls]
 Repository = "https://github.com/rick-rocks123/Game_Hub"
+
