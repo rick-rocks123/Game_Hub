@@ -13,17 +13,17 @@ A Python package that lets you play multiple games from the command line or dire
 ### ✅ pip (recommended)
 
 ```bash
-pip install gamehub
+pip install Hub-Games
 ```
 ### ✅ pipx (best for CLI usage)
 
 ```bash
-pipx install gamehub
+pipx install Hub-Games
 ```
 ### ✅ uv (if you use uv package manager)
 
 ```bash
-uv pip install gamehub
+uv pip install Hub-Games
 ```
 
 ### ✅ Development (editable install)
